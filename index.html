@@ -43,9 +43,9 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#keynote">Keynotes</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#programme">Programme</a>
-                    </li>
+                    </li> -->
                     <!-- <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#accepted">Accepted Papers</a>
                     </li> -->
@@ -128,7 +128,7 @@
                             cyberattacks, analyzing malware, and discovering security vulnerabilities, while also
                             exploring the security and privacy implications of learning algorithms themselves. Prof. Dr.
                             Rieck is highly decorated in his field, having received numerous prestigious accolades
-                            including the ACSAC Test-of-Time Award in 2025, the IEEE S\&P Test-of-Time Award in 2024,
+                            including the ACSAC Test-of-Time Award in 2025, the IEEE S&P Test-of-Time Award in 2024,
                             and Distinguished Paper Awards at both CCS and the USENIX Security Symposium. He actively
                             contributes to the academic community, serving as PC Chair for conferences like ACSAC and
                             the IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), and as an organizer
@@ -197,7 +197,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-light" id="programme">
+    <!-- <section class="bg-light" id="programme">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-justify">
@@ -362,7 +362,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- <section id="accepted">
         <div class="container">
             <div class="row">
@@ -788,76 +788,91 @@
                     <ul>
                         <li>
                             Paper submission deadline:
-                            July 11, 2025, 11:59 PM (all deadlines are AoE, UTC-12)
+                            June 19, 2026, 11:59 PM (all deadlines are AoE, UTC-12)
                         </li>
                         <li>
                             Acceptance notification:
-                            August 15, 2025
+                            August 8, 2026
                         </li>
                         <li>Camera ready due:
-                            August 22, 2025</li>
+                            August 22, 2026</li>
                         <li>Workshop day:
-                            October 13, 2025</li>
+                            November 15, 2026</li>
                     </ul>
                     <h3 class="section-subheading">Overview</h3>
                     <p>
-                        As Large AI Systems and Models (LAMs) become increasingly pivotal in a wide array of
-                        applications, their
-                        potential impact on the privacy and cybersecurity of critical infrastructure becomes a pressing
-                        concern. LAMPS is dedicated to addressing these unique challenges, fostering a dialogue on the
-                        latest advancements and ethical considerations in enhancing the privacy and cybersecurity of
-                        LAMs, particularly in the context of critical infrastructure protection.
+                        The trajectory of AI has fundamentally shifted in 2026. We are moving beyond standalone Large AI
+                        Models (LAMs) to deeply integrated, autonomous Agentic AI systems capable of long-term planning,
+                        external tool execution, and local shell access. While these agentic frameworks promise to
+                        revolutionize critical infrastructure management, they simultaneously introduce a massive
+                        system-level attack surface. In this new paradigm, traditional empirical defenses are no longer
+                        sufficient.
                     </p>
                     <p>
-                        LAMPS will bring together global experts to dissect the nuanced privacy and cybersecurity
-                        challenges posed by LAMs, especially in critical infrastructure sectors. This workshop will
-                        serve as a platform to unveil novel techniques, share best practices, and chart the course for
-                        future research, with a special emphasis on the delicate balance between advancing AI
-                        technologies and securing critical digital and physical systems.
+                        Building upon the resounding success and immense community impact of LAMPS'24 and LAMPS'25,
+                        which consistently drew over 80 attendees and highly competitive submissions, LAMPS'26 is
+                        dedicated to tackling this exact frontier. As a recognized catalyst for cutting-edge AI security
+                        research, we place a spotlight on mathematically grounded defenses this year. We explicitly
+                        bridge Agentic Security with rigorous Formal Verification and Advanced Cryptography to secure
+                        high-stakes autonomous systems, effectively setting the research agenda for the future of secure
+                        AI deployment.
                     </p>
                     <h3 class="section-subheading">Topics of Interest</h3>
                     <p>Topics of interest include (but are not limited to):</p>
                     <p>
-                        <b>Secure Large AI Systems and Models for Critical Infrastructure</b>
+                        <b>Track 1: Agentic System Security & Formal Verification (Featured Theme)</b>
                     </p>
                     <ul>
-                        <li>AI-Enhanced Threat Intelligence and Detection</li>
-                        <li>Automated Security Orchestration and Incident Response</li>
-                        <li>Large AI Models in Vulnerability Assessment and Penetration Testing</li>
-                        <li>AI-Driven Network Security Management</li>
-                        <li>AI-Enabled Security Awareness and Education</li>
-                        <li>Collaborative AI for Global Cyber Threat Intelligence Sharing</li>
-                        <li>Regulatory Compliance and AI in Cybersecurity</li>
+                        <li>Formal Guarantees for Tool-Use: Applying formal verification to bound agent actions,
+                            mathematically proving safe API execution and preventing sandbox escapes.</li>
+                        <li>Skill Exploitation & IPI: Defending against the malicious manipulation of agent "skills"
+                            (e.g., shell execution, web browsing) via indirect prompt injection.</li>
+                        <li>The "Double Agent" Risk: Mitigating threats where personalized agents autonomously execute
+                            unauthorized actions without human-in-the-loop oversight.</li>
+                        <li>Agent-to-Agent (Multi-Agent) Vulnerabilities: Investigating emergent interaction risks such
+                            as agent collusion, adversarial manipulation of peer agents (e.g., cross-agent prompt
+                            injection), and systemic cascading failures.</li>
+                        <li>Agent-Environment and Tool Interaction Risks: Examining compounding vulnerabilities when
+                            agents autonomously interact with external environments, APIs, and untested data sources,
+                            leading to unauthorized traversal or payload execution.</li>
                     </ul>
                     <p>
-                        <b>Large AI Systems and Models' Privacy and Security Vulnerabilities</b>
+                        <b>Track 2: Cryptographic Defenses & Privacy-Preserving AI</b>
                     </p>
                     <ul>
-                        <li>Advanced Threat Landscape</li>
-                        <li>Holistic Security and Privacy Frameworks</li>
-                        <li>Innovations in Privacy Preservation</li>
-                        <li>Secure Computation in AI</li>
+                        <li>Cryptographic Agent Memory: Leveraging Fully Homomorphic Encryption (FHE) and Secure
+                            Multi-Party Computation (SMPC) for encrypted agent states and secure collaborative
+                            reasoning.</li>
+                        <li>Verifiable Agent Actions: Utilizing Zero-Knowledge Proofs (ZKPs) to audit
+                            autonomous agent workflows without revealing underlying prompts or sensitive user data.</li>
+                        <li>Advanced Data Protection: Data anonymization, synthetic data generation, and
+                            IP protection in model weights via cryptographic watermarking.</li>
+                        <li>Countermeasures against advanced adversarial attacks, data poisoning, and model
+                            extraction in continuous-learning systems.</li>
                     </ul>
                     <p>
-                        <b>Data Anonymization and Synthetic Data</b>
+                        <b>Track 3: Secure LAMs for Critical Infrastructure</b>
                     </p>
                     <ul>
-                        <li>Advancements in Data Protection</li>
-                        <li>Cross-Border Data Flow and Cooperation</li>
-                        <li>Intellectual Property Protection</li>
-                        <li>Combatting Deepfakes</li>
+                        <li>AI-driven automated security orchestration, penetration testing, and incident response
+                            (SOAR).</li>
+                        <li>Vulnerability assessments of LAMs deployed in industrial control systems and cyber-physical
+                            environments.</li>
+                        <li>Collaborative AI for secure, cross-border global cyber threat intelligence sharing.</li>
                     </ul>
                     <p>
-                        <b>Human-Centric Large AI Systems and Models</b>
+                        <b>Track 4: Human-Centric AI Security & Governance</b>
                     </p>
                     <ul>
-                        <li>User Vulnerability and Defense Mechanisms</li>
-                        <li>Equity and Inclusivity in AI</li>
-                        <li>Participative Large AI Governance</li>
-                        <li>Enhancing Explainability and Trust</li>
-                        <li>Designing for Security and Usability</li>
-                        <li>Ethics and Decision-Making in AI</li>
-                        <li>Frameworks for Responsible AI Governance</li>
+                        <li>Human-Agent Interaction Exploitation: Addressing the risks of deceptive alignment, advanced
+                            social engineering by autonomous agents, and vulnerabilities stemming from human
+                            over-reliance on agentic workflows.</li>
+                        <li>Human factors in adversarial vulnerabilities and social engineering via autonomous AI
+                            assistants.</li>
+                        <li>Combatting deepfakes to preserve trust in digital communications.</li>
+                        <li>Explainability, fairness, and transparent decision-making in high-stakes autonomous
+                            systems.</li>
+                        <li>Frameworks for responsible AI governance and participative stakeholder engagement.</li>
                     </ul>
                     <h3 class="section-subheading">Submission Guidelines</h3>
                     <p>
@@ -912,8 +927,8 @@
                         paper to be included in the proceedings.
                     </p>
                     <p>
-                        For any questions, please contact one of the PC co-chairs Maggie Liu:
-                        <a href="mailto:xiaoning.liu@rmit.edu.au">xiaoning.liu@rmit.edu.au</a>.
+                        For any questions, please contact one of the PC co-chairs Rayne Holland:
+                        <a href="mailto:Rayne.Holland@data61.csiro.au">Rayne.Holland@data61.csiro.au</a>.
                     </p>
                 </div>
             </div>
